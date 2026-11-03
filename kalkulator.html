@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cindy Verlita | Kontak</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container navbar">
+            <button id="tombolTema" type="button">🌙 Mode Gelap</button>
+            <h1>Cindy Verlita</h1>
+            <nav class="menu-laptop">
+                <ul>
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="proyek.html">Proyek</a></li>
+                    <li><a href="kontak.html">Kontak</a></li>
+                    <li><a href="kalkulator.html">Kalkulator</a></li>
+                </ul>
+            </nav>
+            <!-- Tantangan: menu ponsel yang bisa dibuka-tutup -->
+            <details class="menu-ponsel">
+                <summary>Menu</summary>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Beranda</a></li>
+                        <li><a href="proyek.html">Proyek</a></li>
+                        <li><a href="kontak.html">Kontak</a></li>
+                        <li><a href="kalkulator.html">Kalkulator</a></li>
+                    </ul>
+                </nav>
+            </details>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="kartu">
+                <h2>Kalkulator Nilai</h2>
+                <p>Masukkan nilai tugas, UTS, dan UAS untuk menghitung nilai akhir.</p>
+
+                <form>
+                    <p>
+                        <label for="nilai-tugas">Nilai Tugas</label><br>
+                        <input type="number" id="nilai-tugas" name="nilai-tugas" min="0" max="100" step="1"
+                            placeholder="Contoh: 85" required>
+                    </p>
+                    <p>
+                        <label for="nilai-uts">Nilai UTS</label><br>
+                        <input type="number" id="nilai-uts" name="nilai-uts" min="0" max="100" step="1"
+                            placeholder="Contoh: 30" required>
+                    </p>
+                    <p>
+                        <label for="nilai-uas">Nilai UAS</label><br>
+                        <input type="number" id="nilai-uas" name="nilai-uas" min="0" max="100" step="1"
+                            placeholder="Contoh: 90     " required>
+                    </p>
+
+                    <button type="submit">Hitung Nilai</button>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>Kontak: <a href="mailto:cindyvrpl@gmail.com">cindyvrpl@gmail.com</a> |
+            <a href="https://github.com/cindyvrpl" target="_blank">GitHub</a> |
+            <a href="https://www.youtube.com/channel/UC3Aw53bFFLuP7IsntxVZ1zw" target="_blank">YouTube</a>
+        </p>
+        <p>&copy; 2026 Cindy Verlita. Dibuat di Kelas Industri UBIG.</p>
+    </footer>
+    <script src="tema.js"></script>
+    <script src="kalkulator.js"></script>
+</body>
+
+</html>
