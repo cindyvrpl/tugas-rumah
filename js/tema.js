@@ -8,7 +8,7 @@ if (tombolTema) {
 
     function aturTema(modeGelap) {
         document.body.classList.toggle("dark-mode", modeGelap);
-        tombolTema.textContent = modeGelap ? "☀️ Mode Terang" : "🌙 Mode Gelap";
+        tombolTema.textContent = modeGelap ? " Mode Terang" : " Mode Gelap";
         tombolTema.setAttribute("aria-pressed", String(modeGelap));
     }
 

@@ -210,6 +210,9 @@ button {
   font-weight: 600;
   cursor: pointer;
 }
+.keterangan {
+  font-size: 0.875rem;
+}
 
 /* 7. Footer */
 footer {
@@ -262,53 +265,90 @@ footer a {
     font-size: 2.75rem;
   }
 }
-body {
-  background-color: #FFFFFF;
-  color: #333333;
-}
-
-body.dark-mode {
+/* 10. Tema gelap */
+body.gelap {
   background-color: #171B22;
   color: #E8EAF0;
 }
 
-body.dark-mode h1,
-body.dark-mode h2,
-body.dark-mode h3,
-body.dark-mode p,
-body.dark-mode li,
-body.dark-mode label,
-body.dark-mode caption {
+body.gelap h1,
+body.gelap h2,
+body.gelap h3,
+body.gelap p,
+body.gelap li,
+body.gelap label,
+body.gelap caption {
   color: #E8EAF0;
 }
 
-body.dark-mode .kartu {
+body.gelap .kartu {
   background-color: #242B35;
   color: #E8EAF0;
   border-color: #414B58;
 }
 
-body.dark-mode main a:not(.tombol) {
+body.gelap main a:not(.tombol) {
   color: #FF9A9E;
 }
 
-body.dark-mode input,
-body.dark-mode select,
-body.dark-mode textarea {
+body.gelap input,
+body.gelap select,
+body.gelap textarea {
   background-color: #171B22;
   color: #E8EAF0;
   border-color: #596575;
 }
 
-body.dark-mode th {
+body.gelap th {
   background-color: #303B49;
 }
 
-body.dark-mode th,
-body.dark-mode td {
+body.gelap th,
+body.gelap td {
   border-color: #596575;
 }
 
-#tombolTema {
-  margin: 0 1rem 0.5rem;
+#tombol-tema {
+  margin: 0;
+  padding: 0.5rem 0.75rem;
+  background-color: transparent;
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+/* Filter Proyek */
+.filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.tombol-filter {
+  padding: 0.5rem 1rem;
+  border: 2px solid #CCCCCC;
+  background-color: #FFFFFF;
+  color: #1D3557;
+}
+
+/* Tombol filter aktif */
+.tombol-filter.aktif {
+  background-color: #E63946;
+  color: #FFFFFF;
+  border-color: #E63946;
+}
+
+/* Mode gelap */
+body.gelap .tombol-filter {
+  background-color: #242B35;
+  color: #E8EAF0;
+  border-color: #596575;
+}
+
+body.gelap .tombol-filter.aktif {
+  background-color: #E63946;
+  color: #FFFFFF;
+  border-color: #E63946;
 }

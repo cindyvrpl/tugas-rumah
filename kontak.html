@@ -8,11 +8,11 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
 </head>
 <body>
   <header>
     <div class="container navbar">
-      <button id="tombolTema" type="button">🌙 Mode Gelap</button>
       <h1>Cindy Verlita</h1>
       <nav class="menu-laptop">
         <ul>
@@ -34,6 +34,7 @@
           </ul>
         </nav>
       </details>
+      <button id="tombol-tema" type="button">🌙 Mode Gelap</button>
     </div>
   </header>
 
@@ -67,7 +68,8 @@
           </p>
           <p>
             <label for="pesan">Pesan</label><br>
-            <textarea id="pesan" name="pesan" rows="5" cols="40" placeholder="Tulis pesanmu di sini" required></textarea>
+            <textarea id="pesan" name="pesan" rows="5" cols="40" maxlength="300" placeholder="Tulis pesanmu di sini" required></textarea><br>
+            <span id="hitung-karakter" class="keterangan">0/300 karakter</span>
           </p>
           <button type="submit">Kirim Pesan</button>
         </form>
@@ -81,6 +83,5 @@
       <a href="https://www.youtube.com/channel/UC3Aw53bFFLuP7IsntxVZ1zw" target="_blank">YouTube</a></p>
     <p>&copy; 2026 Cindy Verlita. Dibuat di Kelas Industri UBIG.</p>
   </footer>
-  <script src="tema.js"></script>
 </body>
 </html>
