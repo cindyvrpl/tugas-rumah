@@ -32,7 +32,6 @@ async function muatKeahlian() {
 if (daftarSkill) {
     muatKeahlian();
 }
-
 // 2. Tema gelap (semua halaman)
 const tombolTema = document.querySelector("#tombol-tema");
 
@@ -148,7 +147,7 @@ if (daftarProyek) {
 }
 
 // 5. Repositori GitHub terbaru (halaman Proyek)
-const username = "cindyvrplk";
+const username = "cindyvrpl";
 const alamatRepo = `https://api.github.com/users/${username}/repos`;
 const pilihan = "?sort=updated&per_page=6";
 
