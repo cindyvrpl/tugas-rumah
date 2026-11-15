@@ -139,7 +139,7 @@ function pasangFilter(idTombol, kategori) {
 }
 
 if (daftarProyek) {
-    tampilkanProyek(proyek);
+    muatProyek();
     pasangFilter("#filter-semua", "Semua");
     pasangFilter("#filter-html", "HTML");
     pasangFilter("#filter-css", "CSS");
