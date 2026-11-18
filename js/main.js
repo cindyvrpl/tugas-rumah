@@ -169,3 +169,23 @@ async function ambilRepo() {
 if (daftarRepo) {
     ambilRepo();
 }
+
+//6.tersembunyikan repositori
+const tombolAmbilRepo = document.querySelector("#tombol-repo");
+const tombolSembunyikanRepo = document.querySelector("#tombol-sembunyi-repo");
+const kontenRepo = document.querySelector("#konten-repo");
+
+
+if (tombolAmbilRepo && tombolSembunyikanRepo && kontenRepo) {
+    tombolAmbilRepo.addEventListener("click", () => {
+        kontenRepo.classList.remove("tersembunyi");
+        tombolSembunyikanRepo.classList.remove("tersembunyi");
+        tombolAmbilRepo.classList.add("tersembunyi");
+    });
+
+    tombolSembunyikanRepo.addEventListener("click", () => {
+        kontenRepo.classList.add("tersembunyi");
+        tombolSembunyikanRepo.classList.add("tersembunyi");
+        tombolAmbilRepo.classList.remove("tersembunyi");
+    });
+}
