@@ -171,21 +171,18 @@ if (daftarRepo) {
 }
 
 //6.tersembunyikan repositori
-const tombolAmbilRepo = document.querySelector("#tombol-repo");
-const tombolSembunyikanRepo = document.querySelector("#tombol-sembunyi-repo");
+// 6. Menyembunyikan dan menampilkan repositori
+const tombolRepo = document.querySelector("#tombol-repo");
 const kontenRepo = document.querySelector("#konten-repo");
 
+if (tombolRepo && kontenRepo) {
+    tombolRepo.addEventListener("click", () => {
+        kontenRepo.classList.toggle("tersembunyi");
 
-if (tombolAmbilRepo && tombolSembunyikanRepo && kontenRepo) {
-    tombolAmbilRepo.addEventListener("click", () => {
-        kontenRepo.classList.remove("tersembunyi");
-        tombolSembunyikanRepo.classList.remove("tersembunyi");
-        tombolAmbilRepo.classList.add("tersembunyi");
-    });
-
-    tombolSembunyikanRepo.addEventListener("click", () => {
-        kontenRepo.classList.add("tersembunyi");
-        tombolSembunyikanRepo.classList.add("tersembunyi");
-        tombolAmbilRepo.classList.remove("tersembunyi");
+        if (kontenRepo.classList.contains("tersembunyi")) {
+            tombolRepo.textContent = "Tampilkan repositori";
+        } else {
+            tombolRepo.textContent = "Sembunyikan repositori";
+        }
     });
 }
