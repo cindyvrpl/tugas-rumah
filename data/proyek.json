@@ -4,41 +4,53 @@
     "kategori": "HTML",
     "gambar": "img/proyek-profil3.webp",
     "alt": "Tangkapan layar halaman profil Andi Pratama",
-    "deskripsi": "Halaman web pertama saya, dibuat dengan HTML dasar."
+    "deskripsi": "Halaman web pertama saya, dibuat dengan HTML dasar.",
+    "width": 1104,
+    "height": 838
   },
   {
     "judul": "Form Kontak",
     "kategori": "HTML",
     "gambar": "img/proyek-kontak.png",
     "alt": "Tangkapan layar form kontak berisi lima isian",
-    "deskripsi": "Form dengan label dan validasi bawaan browser."
+    "deskripsi": "Form dengan label dan validasi bawaan browser.",
+    "width": 640,
+    "height": 420
   },
   {
     "judul": "Tabel Jadwal Belajar",
     "kategori": "HTML",
     "gambar": "img/proyek-jadwal2.png",
     "alt": "Tangkapan layar tabel jadwal belajar mandiri",
-    "deskripsi": "Jadwal belajar mingguan dengan thead dan tbody."
+    "deskripsi": "Jadwal belajar mingguan dengan thead dan tbody.",
+    "width": 640,
+    "height": 420
   },
   {
     "judul": "Portofolio Responsif",
     "kategori": "CSS",
     "gambar": "img/proyek-responsif.webp",
     "alt": "Tangkapan layar portofolio di ponsel dan laptop",
-    "deskripsi": "Rapi di ponsel, tablet, dan laptop dengan Flexbox."
+    "deskripsi": "Rapi di ponsel, tablet, dan laptop dengan Flexbox.",
+    "width": 640,
+    "height": 420
   },
   {
     "judul": "Kalkulator Nilai Rapor",
     "kategori": "JavaScript",
     "gambar": "img/proyek-kalkulator.webp",
     "alt": "Tangkapan layar hasil kalkulator nilai di Console",
-    "deskripsi": "Rata-rata dan predikat nilai dengan fungsi JavaScript."
+    "deskripsi": "Rata-rata dan predikat nilai dengan fungsi JavaScript.",
+    "width": 640,
+    "height": 420
   },
   {
     "judul": "Lima Soal Logika",
     "kategori": "JavaScript",
     "gambar": "img/proyek-logika.webp",
     "alt": "Tangkapan layar hasil uji lima soal logika",
-    "deskripsi": "Lima fungsi logika yang masing-masing diuji 3 masukan."
+    "deskripsi": "Lima fungsi logika yang masing-masing diuji 3 masukan.",
+    "width": 640,
+    "height": 420
   }
 ]
