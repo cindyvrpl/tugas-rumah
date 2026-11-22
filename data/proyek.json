@@ -2,7 +2,7 @@
   {
     "judul": "Halaman Profil Pertama",
     "kategori": "HTML",
-    "gambar": "img/proyek-profil2.png",
+    "gambar": "img/proyek-profil3.webp",
     "alt": "Tangkapan layar halaman profil Andi Pratama",
     "deskripsi": "Halaman web pertama saya, dibuat dengan HTML dasar."
   },
@@ -23,7 +23,7 @@
   {
     "judul": "Portofolio Responsif",
     "kategori": "CSS",
-    "gambar": "img/proyek-responsif.png",
+    "gambar": "img/proyek-responsif.webp",
     "alt": "Tangkapan layar portofolio di ponsel dan laptop",
     "deskripsi": "Rapi di ponsel, tablet, dan laptop dengan Flexbox."
   },
