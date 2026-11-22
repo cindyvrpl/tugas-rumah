@@ -30,14 +30,14 @@
   {
     "judul": "Kalkulator Nilai Rapor",
     "kategori": "JavaScript",
-    "gambar": "img/proyek-kalkulator.png",
+    "gambar": "img/proyek-kalkulator.webp",
     "alt": "Tangkapan layar hasil kalkulator nilai di Console",
     "deskripsi": "Rata-rata dan predikat nilai dengan fungsi JavaScript."
   },
   {
     "judul": "Lima Soal Logika",
     "kategori": "JavaScript",
-    "gambar": "img/proyek-logika.png",
+    "gambar": "img/proyek-logika.webp",
     "alt": "Tangkapan layar hasil uji lima soal logika",
     "deskripsi": "Lima fungsi logika yang masing-masing diuji 3 masukan."
   }
