@@ -64,18 +64,25 @@ let proyek = [];
 const daftarProyek = document.querySelector("#daftar-proyek");
 const jumlahProyek = document.querySelector("#jumlah-proyek");
 
-function buatKartu(item) {
+function buatKartu(item, index) {
     return `
     <article class="kartu">
-    <span class="label">${item.kategori}</span>
-    <h3>${item.judul}</h3>
-    <img src="${item.gambar}"alt="${item.alt}"width="${item.width}"height="${item.height}">
-    <p>${item.deskripsi}</p>
+        <span class="label">${item.kategori}</span>
+        <h3>${item.judul}</h3>
+        <img 
+            src="${item.gambar}"
+            alt="${item.alt}"
+            width="${item.width}"
+            height="${item.height}"
+            loading="${index === 0 ? 'eager' : 'lazy'}"
+            fetchpriority="${index === 0 ? 'high' : 'auto'}"
+        >
+        <p>${item.deskripsi}</p>
     </article>`;
 }
 
 function tampilkanProyek(daftar) {
-    const semuaKartu = daftar.map((item) => buatKartu(item));
+    const semuaKartu = daftar.map((item, index) => buatKartu(item, index));
     daftarProyek.innerHTML = semuaKartu.join("");
     jumlahProyek.textContent = `Menampilkan ${daftar.length} dari ${proyek.length} proyek`;
 }
